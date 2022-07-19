@@ -9,9 +9,9 @@ if (window.location.pathname === '/notes.html') {
   noteText = document.querySelector('.note-textarea');
   saveNoteBtn = document.querySelector('.save-note');
   newNoteBtn = document.querySelector('.new-note');
-  noteList = document.querySelectorAll('.list-group');
+  noteList = document.querySelectorAll('.list-container .list-group');
 }
-console.log(noteList)
+
 // Show an element
 const show = (elem) => {
   elem.style.display = 'inline';
